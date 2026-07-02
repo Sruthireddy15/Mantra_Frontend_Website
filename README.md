@@ -32,8 +32,9 @@ This project is a responsive educational institute website developed using HTML,
 └── README.md
 
 ##  Live Website
-
-
+eductionwebsite.netlify.app
+## githublink
+https://github.com/Sruthireddy15/Mantra_Frontend_Website.git
 ##  SEO Features
 - Optimized page titles
 - Meta descriptions
