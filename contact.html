@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact & Registration | Sruthireddy Institute</title>
+<meta name="description" content="Register for courses or contact Sruthi Institute of Technology.">
+<meta name="keywords" content="contact, registration, admissions">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="navbar">
+    <a href="index.html" class="logo">Sruthi reddy Institute</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="courses.html">Courses</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section>
+  <h1>Student Registration</h1>
+  <form id="registrationForm">
+    <p id="successMsg" class="success"></p>
+
+    <label for="fullName">Full Name</label>
+    <input type="text" id="fullName" placeholder="Enter your name">
+    <p id="nameError" class="error">Name must be at least 3 letters.</p>
+
+    <label for="email">Email</label>
+    <input type="text" id="email" placeholder="you@example.com">
+    <p id="emailError" class="error">Please enter a valid email.</p>
+
+    <label for="phone">Phone Number</label>
+    <input type="text" id="phone" placeholder="10-digit number">
+    <p id="phoneError" class="error">Enter a valid 10-digit phone number.</p>
+
+    <label for="course">Select Course</label>
+    <select id="course">
+      <option value="">-- Choose a Course --</option>
+      <option value="cs">B.Tech Computer Science</option>
+      <option value="ece">B.Tech Electronics</option>
+      <option value="bba">BBA Management</option>
+      <option value="ai">Diploma in AI & Data Science</option>
+    </select>
+    <p id="courseError" class="error">Please select a course.</p>
+
+    <br><br>
+    <button type="submit" class="btn">Submit</button>
+  </form>
+</section>
+
+<section>
+  <h2>Contact Details</h2>
+  <p><strong>Address:</strong> 123 chennai tamilnadu,mahabalipuram,pincode:603104</p>
+  <p><strong>Phone:</strong> +91 9030456671</p>
+  <p><strong>Email:</strong> admissions@sruthireddy institute.edu.in</p>
+</section>
+
+<footer>
+  <p>&copy; 2026 Sruthi reddy Institute of Technology</p>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="courses.html">Courses</a>
+  <a href="gallery.html">Gallery</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
